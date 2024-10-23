@@ -1,0 +1,9 @@
+body{
+    background-color: antiquewhite;
+}
+
+p{
+    font-weight: bold;
+    padding: 2%;
+    border: 2px solid brown;
+}

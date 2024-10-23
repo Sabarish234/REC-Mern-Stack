@@ -1,0 +1,101 @@
+
+
+.heading{
+    color: orange;
+    font-size: 76px;
+    background-color: black;
+}
+
+.box1{
+    height: 300px;
+    width: 300px;
+    background-color: brown;
+}
+
+.flag{
+    width: 500px;
+    height: 100px;
+}
+.saffron{
+    background-color: orange;
+}
+.white{
+    background-color: white;
+}
+.green{
+    background-color: green;
+
+}
+img{
+    height: 100px;
+    margin-left: 38%;
+}
+
+.container{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(255, 255, 145);
+    padding: 20px 0;
+}
+.item{
+    height: 250px;
+    width: 250px;
+    background-color:white;
+    border : 1px solid black;
+    align-content: center;
+    text-align: center;
+    margin: 0 10px;
+    border-radius: 10%;
+}
+.item:hover{
+    background-color:rgb(22, 247, 146);
+}
+.imgholder{
+    height: 50%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.product{
+   margin: 0;
+}
+
+.desc{
+    height: 30%;
+    width: 100%;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+.title{
+    font-size: 20px;
+ 
+}
+.price{
+    font-size: 14px;
+    color: red;
+}
+span{
+    background-color: red;
+    color: white;
+}
+.line{
+    font-size: 14px;
+}
+
+button{
+    padding: 14px 10px;
+    border: none;
+    color: green;
+    font-weight: bold;
+}
+button:hover{
+    background-color: rgb(22, 247, 146);;
+}

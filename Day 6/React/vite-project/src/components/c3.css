@@ -1,0 +1,25 @@
+/* styles.css */
+.flag {
+  width: 500px;
+  height: 100px;
+}
+
+.saffron {
+  background-color: orange;
+}
+
+.white {
+  background-color: white;
+  position: relative;
+}
+
+.green {
+  background-color: green;
+}
+
+.ashoka-chakra {
+  height: 100px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}

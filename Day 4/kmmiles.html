@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Km to Miles</h1>
+    <input type="text" placeholder="Enter kilometres" id="num1"> <br><br>
+    <input type="submit" value="Calculate" id="btn"> <br><br>
+    <textarea id="result">Result</textarea>
+</body>
+<script>
+        let btn = document.getElementById("btn");
+        btn.addEventListener("click",()=>{
+        let n1 = parseInt(document.getElementById("num1").value);
+        let miles = n1*0.6;
+        document.getElementById("result").value = miles;
+    });
+</script>
+</html>
